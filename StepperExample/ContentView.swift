@@ -15,7 +15,7 @@ import SwiftUI
 struct ContentView: View {
     
     // MARK: Stored properties
- 
+    @State var base: Int = 1
     
     // MARK: Computed properties
     var body: some View {
